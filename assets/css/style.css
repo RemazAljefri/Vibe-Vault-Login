@@ -60,14 +60,12 @@ body {
 
 /* Main Form Card */
 .container {
-    margin-top: 100px;
-    border: 2px solid;
-    width: 600px;
-    height: 460px;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-    background-color: white;
+    margin-top: 100px;
+    border: 2px solid;
+    width: 600px;
+    height: 460px;
+    border-radius: 20px;
+    background-color: white;
 }
 
 /* Text Inputs */
