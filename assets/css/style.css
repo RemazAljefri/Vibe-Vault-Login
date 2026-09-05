@@ -124,27 +124,38 @@ body {
     color: brown;
 }
 
-
 /* Media Query for Mobile Devices Only */
 @media (max-width: 768px) {
+    /* Replace 100vw with 100% to eliminate horizontal scrolling and layout breaking */
+    header, header img {
+        width: 100% !important;
+    }
+
+    /* Scale down the oversized heading to fit mobile screen width */
     header h1 {
-        font-size: 42px; /* Reduce title font size for mobile screens */
-        top: 35%;
+        font-size: 36px !important;
+        top: 35% !important;
     }
 
     header p {
-        font-size: 16px;
-        top: 70%;
+        font-size: 14px !important;
+        top: 70% !important;
     }
 
+    /* Allow the main card container to shrink and dynamically expand vertically */
     .container {
-        margin-top: 30px;
-        width: 92%; /* Set full width with comfortable margins */
-        padding: 15px;
+        width: 90% !important;
+        height: auto !important;
+        margin-top: 40px !important;
+        padding: 20px 10px !important;
+        flex-direction: column !important;
+        align-items: center !important;
     }
 
+    /* Reset left margins (27px & 10px) to properly center inputs and buttons inside the card */
     .inputs input, 
     .buttons button {
-        width: 100%; /* Stretch inputs and buttons to full card width */
+        width: 100% !important;
+        margin: 15px 0 !important; /* Removes the left offset completely */
     }
 }
