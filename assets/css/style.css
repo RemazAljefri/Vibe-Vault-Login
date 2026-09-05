@@ -123,3 +123,28 @@ body {
     text-decoration: none;
     color: brown;
 }
+
+
+/* Media Query for Mobile Devices Only */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 42px; /* Reduce title font size for mobile screens */
+        top: 35%;
+    }
+
+    header p {
+        font-size: 16px;
+        top: 70%;
+    }
+
+    .container {
+        margin-top: 30px;
+        width: 92%; /* Set full width with comfortable margins */
+        padding: 15px;
+    }
+
+    .inputs input, 
+    .buttons button {
+        width: 100%; /* Stretch inputs and buttons to full card width */
+    }
+}
