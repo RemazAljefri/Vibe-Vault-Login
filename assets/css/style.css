@@ -1,0 +1,125 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+}
+
+header img {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+
+header .text {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 57%;
+    left: 0%;
+    right: 0%;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0); /* Text shadow for contrast */
+}
+
+i {}
+
+header p {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    right: 0%;
+}
+
+p {
+    margin: 30px;
+}
+
+/* Page Body Background */
+body {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+/* Main Form Card */
+.container {
+    margin-top: 100px;
+    border: 2px solid;
+    width: 600px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* Text Inputs */
+.inputs input {
+    padding: 0 0 0 20px;
+    margin: 40px 0px 0px 10px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    outline-color: brown;
+    font-size: 15px;
+}
+
+/* Button Styles & Hover */
+.buttons button {
+    margin: 40px 0px 40px 27px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.buttons button:hover {
+    margin: 40px 0px 40px 27px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(118, 19, 19);
+    color: white;
+    font-size: 15px;
+}
+
+/* Links & Hover */
+.buttons a {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    text-decoration: none;
+    color: brown;
+}
