@@ -125,7 +125,7 @@ body {
 }
 
 /* Responsive Layout: Tablets */
-@media screen and (min-width: 401px) and (max-width: 700px) 
+@media screen and (min-width: 431px) and (max-width: 700px) 
 { 
 
     header h1 {font-size: 80px;}
@@ -161,7 +161,7 @@ body {
 
 
 /* Responsive Layout: Tablets */
-@media screen and (max-width: 400px) 
+@media screen and (max-width: 430px) 
 { 
 
     header img {
@@ -169,7 +169,7 @@ body {
     height: 190px;
     object-fit: cover;
 }
-    header h1 {font-size: 48px; top: 30%;}
+    header h1 {font-size: 48px; top: 31%;}
     
     header p {font-size: 15px; top: 80%;}
 
